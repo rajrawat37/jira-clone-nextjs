@@ -29,6 +29,14 @@ const SignUpCard = () => {
         </div>
         <CardContent className="p-7 -mt-7">
            <form action="" className='space-y-4 '>
+           <Input
+             required
+             type='name'
+             value={""}
+             placeholder='Enter your name'
+             onChange={() => {}}
+             disabled={false}
+            />
             <Input
              required
              type='email'
